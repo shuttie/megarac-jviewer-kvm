@@ -1,0 +1,3 @@
+# JViewer extracts its native libraries next to its jars at runtime
+jviewer/Jar/
+agent/build/
