@@ -14,6 +14,12 @@ cd megarac-jviewer-kvm
 JViewer opens its connection dialog and asks for the BMC address, user and password.
 On Windows, run `megarac-kvm.cmd`.
 
+![JViewer connection dialog](docs/login.png)
+
+After **Launch**, the console shows the host screen:
+
+![JViewer showing a Linux console login](docs/run.png)
+
 ## Requirements
 
 - Java 21 or newer. Set `JAVA=/path/to/java` if the `java` on your PATH is older.
@@ -60,7 +66,7 @@ and its SHA-256.
 
 Other boards with the same MegaRAC SP-X generation (other GIGABYTE, ASRock Rack and Tyan
 servers) may work with these jars, or with the jars from their own BMC copied into
-`jviewer/`. I haven't tried either.
+`jviewer/`. Neither has been tested.
 
 ## Rebuilding the agent
 
